@@ -1,0 +1,11 @@
+{
+  "last_updated": null,
+  "query": "(\"#hiring\" OR \"İşe alım\") AND (Yazılım OR Software) AND Ankara",
+  "stats": {
+    "total": 0,
+    "new_this_run": 0,
+    "new_today": 0
+  },
+  "top_results": [],
+  "all_results": []
+}

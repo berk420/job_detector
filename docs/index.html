@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LinkedIn İş İlanı Takipçisi</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            linkedin: '#0A66C2',
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 min-h-screen transition-colors duration-300">
+
+  <!-- Header -->
+  <header class="bg-white dark:bg-gray-800 shadow-sm sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 bg-linkedin rounded-lg flex items-center justify-center">
+          <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24">
+            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          </svg>
+        </div>
+        <div>
+          <h1 class="font-bold text-gray-900 dark:text-white text-lg leading-tight">İş İlanı Takipçisi</h1>
+          <p class="text-xs text-gray-500 dark:text-gray-400" id="last-updated">Yükleniyor…</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <button onclick="refresh()" id="refresh-btn"
+          class="flex items-center gap-2 px-3 py-1.5 bg-linkedin text-white text-sm rounded-lg hover:bg-blue-700 transition-colors">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+          </svg>
+          Yenile
+        </button>
+        <button onclick="toggleDark()" class="p-2 rounded-lg bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors">
+          <svg class="w-4 h-4 dark:hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+          </svg>
+          <svg class="w-4 h-4 hidden dark:block" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-6 space-y-8">
+
+    <!-- Arama Sorgusu -->
+    <div class="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700">
+      <p class="text-xs font-medium text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-1">Boolean Arama Sorgusu</p>
+      <code class="text-sm text-linkedin dark:text-blue-400 font-mono" id="search-query">—</code>
+    </div>
+
+    <!-- İstatistikler -->
+    <div class="grid grid-cols-3 gap-4">
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700 text-center">
+        <p class="text-3xl font-bold text-gray-900 dark:text-white" id="stat-total">—</p>
+        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Toplam İlan</p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700 text-center">
+        <p class="text-3xl font-bold text-emerald-600 dark:text-emerald-400" id="stat-today">—</p>
+        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Bugün Yeni</p>
+      </div>
+      <div class="bg-white dark:bg-gray-800 rounded-xl p-4 shadow-sm border border-gray-100 dark:border-gray-700 text-center">
+        <p class="text-3xl font-bold text-amber-600 dark:text-amber-400" id="stat-run">—</p>
+        <p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Son Çalışmada</p>
+      </div>
+    </div>
+
+    <!-- En Uygun İlanlar -->
+    <section>
+      <div class="flex items-center gap-2 mb-4">
+        <div class="w-1 h-6 bg-linkedin rounded-full"></div>
+        <h2 class="text-lg font-bold text-gray-900 dark:text-white">En Uygun İlanlar</h2>
+        <span class="text-xs bg-linkedin text-white px-2 py-0.5 rounded-full font-medium">Top 5</span>
+      </div>
+      <div id="top-results" class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div class="col-span-full text-center text-gray-400 dark:text-gray-500 py-10">Yükleniyor…</div>
+      </div>
+    </section>
+
+    <!-- Tüm İlanlar -->
+    <section>
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-2">
+          <div class="w-1 h-6 bg-gray-400 rounded-full"></div>
+          <h2 class="text-lg font-bold text-gray-900 dark:text-white">Tüm İlanlar</h2>
+        </div>
+        <select id="sort-select" onchange="applySortFilter()"
+          class="text-sm border border-gray-200 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-lg px-3 py-1.5">
+          <option value="score">Uygunluk</option>
+          <option value="time">En Yeni</option>
+          <option value="likes">Beğeni</option>
+        </select>
+      </div>
+      <div id="all-results" class="space-y-3">
+        <div class="text-center text-gray-400 dark:text-gray-500 py-10">Yükleniyor…</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="text-center text-xs text-gray-400 dark:text-gray-600 py-8">
+    Her saat başı otomatik güncellenir · GitHub Actions ile çalışır
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "search_query": "(\"#hiring\" OR \"İşe alım\") AND (Yazılım OR Software) AND Ankara",
+  "max_results": 25,
+  "top_results_count": 5,
+  "score_weights": {
+    "keyword_match": 40,
+    "recency": 35,
+    "engagement": 25
+  }
+}
