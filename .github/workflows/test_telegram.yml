@@ -1,0 +1,49 @@
+name: Test Telegram Notification
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Send test message
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python - <<'EOF'
+          import os, requests
+
+          token = os.environ["TELEGRAM_BOT_TOKEN"]
+          chat_id = os.environ["TELEGRAM_CHAT_ID"]
+
+          msg = (
+            "<b>🔔 Yeni İlan — Ahmet Yılmaz</b>\n"
+            "<i>Senior Frontend Developer @ TechCorp</i>\n\n"
+            "Frontend alanında deneyimli bir geliştirici arıyoruz! "
+            "React, TypeScript, Next.js konularında 3+ yıl deneyim beklenmektedir. "
+            "Uzaktan çalışma imkânı mevcuttur.\n\n"
+            "👍 42  💬 8\n\n"
+            "<a href=\"https://www.linkedin.com\">LinkedIn'de Görüntüle →</a>"
+          )
+
+          resp = requests.post(
+            f"https://api.telegram.org/bot{token}/sendMessage",
+            json={"chat_id": chat_id, "text": msg, "parse_mode": "HTML", "disable_web_page_preview": False},
+            timeout=15,
+          )
+          print("Status:", resp.status_code)
+          print(resp.text)
+          EOF
