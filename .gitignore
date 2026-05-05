@@ -1,0 +1,22 @@
+# Hassas dosyalar
+claude.txt
+.env
+*.env
+
+# LinkedIn oturum çerezleri
+data/li_cookies.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
