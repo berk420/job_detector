@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-05-05T08:11:02.972655+00:00",
-  "query": "(\"#hiring\" OR \"İşe alım\") AND (Yazılım OR Software) AND Ankara",
+  "last_updated": "2026-05-05T10:08:55.581449+00:00",
+  "query": "(\"#hiring\" OR İşe alım) AND (Yazılım OR Software)",
   "stats": {
     "total": 0,
     "new_this_run": 0,
