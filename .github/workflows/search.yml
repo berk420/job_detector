@@ -2,7 +2,7 @@ name: LinkedIn Job Search
 
 on:
   schedule:
-    - cron: "0 * * * *"   # Her saat başı
+    - cron: "*/15 * * * *"   # Her 15 dakikada bir
   workflow_dispatch:        # Manuel tetikle
 
 permissions:

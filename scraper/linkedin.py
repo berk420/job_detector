@@ -64,9 +64,9 @@ class LinkedInSearcher:
         params = {
             "decorationId": "com.linkedin.voyager.deco.search.SearchClusterCollection-54",
             "count": count,
-            "filters": "List(resultType->CONTENT)",
+            "filters": "List(resultType->CONTENT,sortBy->DD)",
             "keywords": keywords,
-            "origin": "GLOBAL_SEARCH_HEADER",
+            "origin": "FACETED_SEARCH",
             "q": "blended",
             "start": 0,
         }
