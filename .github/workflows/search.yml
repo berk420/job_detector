@@ -30,6 +30,8 @@ jobs:
       - name: Run LinkedIn search
         env:
           LI_AT: ${{ secrets.LI_AT }}
+          LI_EMAIL: ${{ secrets.LI_EMAIL }}
+          LI_PASSWORD: ${{ secrets.LI_PASSWORD }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python -m scraper.main

@@ -13,6 +13,7 @@ import time
 from datetime import datetime, timezone
 
 from scraper.linkedin import LinkedInSearcher
+from scraper.login import get_li_at
 from scraper.telegram import notify_new_posts
 from scraper import store, scorer
 
@@ -56,9 +57,22 @@ def main():
     tg_token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     tg_chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
 
+    # If li_at not given, try email/password login
     if not li_at:
-        print("ERROR: LI_AT environment variable is not set")
-        sys.exit(1)
+        email = os.environ.get("LI_EMAIL", "").strip()
+        password = os.environ.get("LI_PASSWORD", "").strip()
+        if email and password:
+            print("li_at not set — logging in with email/password...")
+            try:
+                li_at = get_li_at(email, password)
+                print("Login successful, li_at acquired")
+            except RuntimeError as e:
+                print(f"ERROR: {e}")
+                sys.exit(1)
+        else:
+            print("ERROR: Set LI_AT, or both LI_EMAIL and LI_PASSWORD")
+            sys.exit(1)
+
     if not tg_token or not tg_chat:
         print("ERROR: TELEGRAM_BOT_TOKEN or TELEGRAM_CHAT_ID not set")
         sys.exit(1)
