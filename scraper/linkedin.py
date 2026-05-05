@@ -68,7 +68,6 @@ class LinkedInSearcher:
             "keywords": keywords,
             "origin": "GLOBAL_SEARCH_HEADER",
             "q": "blended",
-            "sortBy": "DD",
             "start": 0,
         }
 
@@ -79,12 +78,13 @@ class LinkedInSearcher:
                 timeout=25,
                 headers={"Referer": "https://www.linkedin.com/search/results/content/"},
             )
-            if resp.status_code == 401:
-                print("Error: li_at cookie expired or invalid")
-                return []
+            if resp.status_code in (401, 403):
+                print(f"Error: li_at cookie expired or invalid ({resp.status_code})")
+                raise PermissionError("li_at_expired")
             if resp.status_code != 200:
                 print(f"LinkedIn API returned {resp.status_code}")
-                return []
+                raise ConnectionError(f"api_{resp.status_code}")
+
 
             data = resp.json()
             return self._parse_response(data)

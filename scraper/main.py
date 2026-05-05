@@ -52,24 +52,35 @@ def save_jobs_json(all_posts: list[dict], new_posts: list[dict], config: dict) -
     print(f"Saved {len(ranked)} posts to docs/jobs.json")
 
 
+def get_fresh_li_at() -> str:
+    email = os.environ.get("LI_EMAIL", "").strip()
+    password = os.environ.get("LI_PASSWORD", "").strip()
+    if not email or not password:
+        return ""
+    try:
+        li_at = get_li_at(email, password)
+        print("Login successful, fresh li_at acquired")
+        return li_at
+    except RuntimeError as e:
+        print(f"Email/password login failed: {e}")
+        return ""
+
+
+def run_search(li_at: str, query: str, max_results: int) -> list[dict]:
+    searcher = LinkedInSearcher(li_at)
+    return searcher.search_content(query, count=max_results)
+
+
 def main():
     li_at = os.environ.get("LI_AT", "").strip()
     tg_token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     tg_chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
 
-    # If li_at not given, try email/password login
+    # If li_at not given, login with email/password
     if not li_at:
-        email = os.environ.get("LI_EMAIL", "").strip()
-        password = os.environ.get("LI_PASSWORD", "").strip()
-        if email and password:
-            print("li_at not set — logging in with email/password...")
-            try:
-                li_at = get_li_at(email, password)
-                print("Login successful, li_at acquired")
-            except RuntimeError as e:
-                print(f"ERROR: {e}")
-                sys.exit(1)
-        else:
+        print("LI_AT not set — logging in with email/password...")
+        li_at = get_fresh_li_at()
+        if not li_at:
             print("ERROR: Set LI_AT, or both LI_EMAIL and LI_PASSWORD")
             sys.exit(1)
 
@@ -79,13 +90,28 @@ def main():
 
     config = load_config()
     query = config["search_query"]
+    max_results = config.get("max_results", 25)
 
     print(f"Searching LinkedIn for: {query}")
-    searcher = LinkedInSearcher(li_at)
-    posts = searcher.search_content(query, count=config.get("max_results", 25))
+    try:
+        posts = run_search(li_at, query, max_results)
+    except (PermissionError, ConnectionError) as e:
+        # li_at expired or API error — try fresh login
+        print(f"Search failed ({e}), retrying with email/password login...")
+        li_at = get_fresh_li_at()
+        if not li_at:
+            print("No email/password credentials available, giving up")
+            save_jobs_json([], [], config)
+            return
+        try:
+            posts = run_search(li_at, query, max_results)
+        except Exception as e2:
+            print(f"Retry also failed: {e2}")
+            save_jobs_json([], [], config)
+            return
 
     if not posts:
-        print("No posts returned — check li_at cookie or try again later")
+        print("No posts returned — check credentials or try again later")
         save_jobs_json([], [], config)
         return
 
