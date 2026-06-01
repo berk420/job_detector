@@ -61,7 +61,8 @@ def main():
     print("  LinkedIn Job Monitor — Browser Mode")
     print("=" * 50)
 
-    browser = LinkedInBrowser(headless=False)
+    headless = os.environ.get("HEADLESS", "true").lower() != "false"
+    browser = LinkedInBrowser(headless=headless)
     browser.start()
 
     # Login (skip if saved cookies are still valid)

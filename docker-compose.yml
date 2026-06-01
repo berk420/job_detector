@@ -1,0 +1,8 @@
+services:
+  job-detector:
+    build: .
+    env_file: .env
+    volumes:
+      - ./data:/app/data
+      - ./docs:/app/docs
+    restart: unless-stopped

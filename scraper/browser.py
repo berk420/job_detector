@@ -1,6 +1,6 @@
 """
-Browser-based LinkedIn scraper using Playwright.
-Opens a real Chrome window, logs in once, and keeps the session alive.
+Browser-based LinkedIn scraper using Playwright WebKit.
+Runs headless by default; set HEADLESS=false to open a visible window.
 """
 
 import json
@@ -22,7 +22,7 @@ SEARCH_URL = (
 
 
 class LinkedInBrowser:
-    def __init__(self, headless: bool = False):
+    def __init__(self, headless: bool = True):
         self.headless = headless
         self._pw = None
         self._browser = None
@@ -31,25 +31,14 @@ class LinkedInBrowser:
 
     def start(self):
         self._pw = sync_playwright().start()
-        # Try installed Chrome first, fall back to Playwright's Chromium
-        try:
-            self._browser = self._pw.chromium.launch(
-                headless=self.headless,
-                channel="chrome",
-                args=["--start-maximized"],
-            )
-        except Exception:
-            self._browser = self._pw.chromium.launch(
-                headless=self.headless,
-                args=["--start-maximized"],
-            )
+        self._browser = self._pw.webkit.launch(headless=self.headless)
 
         self._context = self._browser.new_context(
             viewport={"width": 1366, "height": 768},
             user_agent=(
-                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-                "AppleWebKit/537.36 (KHTML, like Gecko) "
-                "Chrome/124.0.0.0 Safari/537.36"
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) "
+                "AppleWebKit/605.1.15 (KHTML, like Gecko) "
+                "Version/17.5 Safari/605.1.15"
             ),
         )
         self._page = self._context.new_page()
