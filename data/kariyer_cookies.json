@@ -1,0 +1,868 @@
+[
+  {
+    "name": "taboola_session_id",
+    "value": "v2_e66c7151bd81ae3cea3d0a3fcdbcd8f3_cfeb3e2b-cac3-4083-b91e-ae83ee4dd42d-tuct1118b57f_1780482989_1780482989_CNawjgYQ7pVXGK-zuejoMyABKAMw2QE4juENQKnrDUji-9kDUP___________wFYAGAAaP6I6sqS68inL3ABgAEAiAEAkAEA",
+    "domain": ".taboola.com",
+    "path": "/kariyernet-tr-sc/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_hjSessionUser_86631",
+    "value": "eyJpZCI6IjFiYTQzN2YwLTcwNjAtNWIzMC1hMWRmLTc1MTA4YjhjOWM4ZCIsImNyZWF0ZWQiOjE3ODA0MTQyNjgxMTksImV4aXN0aW5nIjp0cnVlfQ==",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "ASP.NET_SessionId",
+    "value": "er13wr05tegmxegnqwpl4zfx",
+    "domain": "www.kariyer.net",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_pxvid",
+    "value": "0ef30d93-5e98-11f1-9373-216cad52cc10",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_twpid",
+    "value": "tw.1780414266080.9642705584651532",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Strict"
+  },
+  {
+    "name": "kariyerDomainCookie0",
+    "value": "alogses=34899875_SwsTz0YSlChAiGTW/5jkNw==!e!_rozxpa5v14xisusnkqv3bh3r",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1780580275.159078,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "visitor_id",
+    "value": "y0FaIoPo-4G4WYSdI-9BMinAlb-dVf7KKFH",
+    "domain": "www.kariyer.net",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "fingerprint_id",
+    "value": "f7bdd62335369e2a558cc7831136e865",
+    "domain": "www.kariyer.net",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sbjs_migrations",
+    "value": "1418474375998%3D1",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1795980793,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sbjs_current_add",
+    "value": "fd%3D2026-06-02%2012%3A33%3A13%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.kariyer.net%2Fhesabim%7C%7C%7Crf%3D%28none%29",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1795980793,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sbjs_first_add",
+    "value": "fd%3D2026-06-02%2012%3A33%3A13%7C%7C%7Cep%3Dhttps%3A%2F%2Fwww.kariyer.net%2Fhesabim%7C%7C%7Crf%3D%28none%29",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1795980793,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sbjs_current",
+    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1796045875,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sbjs_first",
+    "value": "typ%3Dtypein%7C%7C%7Csrc%3D%28direct%29%7C%7C%7Cmdm%3D%28none%29%7C%7C%7Ccmp%3D%28none%29%7C%7C%7Ccnt%3D%28none%29%7C%7C%7Ctrm%3D%28none%29",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1795980793,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_gcl_au",
+    "value": "1.1.1701105892.1780428797",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1788204797,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ttp",
+    "value": "3Eau2vprQ2xAuHouA5eE6kXhBi7",
+    "domain": ".tiktok.com",
+    "path": "/",
+    "expires": 1814178986.599624,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_ga",
+    "value": "GA1.1.155507755.1780428799",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1815051779.244884,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_fbp",
+    "value": "fb.1.1780428799467.130073449433927167",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1788267781,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "g",
+    "value": "QuKKBM91xsVsOJ4aVrwU_1780428799503",
+    "domain": ".creativecdn.com",
+    "path": "/",
+    "expires": 1811964799.497467,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "c",
+    "value": "QuKKBM91xsVsOJ4aVrwU_TcuwYaYaTIl08hh5iaai_1780428799503",
+    "domain": ".creativecdn.com",
+    "path": "/",
+    "expires": 1811964799.497787,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://kariyer.net",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "ts",
+    "value": "1780428799",
+    "domain": ".creativecdn.com",
+    "path": "/",
+    "expires": 1811964799.497902,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://kariyer.net",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "t_gid",
+    "value": "cfeb3e2b-cac3-4083-b91e-ae83ee4dd42d-tuct1118b57f",
+    "domain": ".taboola.com",
+    "path": "/",
+    "expires": 1812018994.626358,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "t_pt_gid",
+    "value": "cfeb3e2b-cac3-4083-b91e-ae83ee4dd42d-tuct1118b57f",
+    "domain": ".taboola.com",
+    "path": "/",
+    "expires": 1812018994.626755,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://kariyer.net",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "guest_id_marketing",
+    "value": "v1%3A178042879957313663",
+    "domain": ".twitter.com",
+    "path": "/",
+    "expires": 1814988799.689513,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "guest_id_ads",
+    "value": "v1%3A178042879957313663",
+    "domain": ".twitter.com",
+    "path": "/",
+    "expires": 1814988799.689666,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "personalization_id",
+    "value": "\"v1_Kn+QOSXnbShG1+pi8aymnQ==\"",
+    "domain": ".twitter.com",
+    "path": "/",
+    "expires": 1814988799.689923,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "guest_id",
+    "value": "v1%3A178042879957313663",
+    "domain": ".twitter.com",
+    "path": "/",
+    "expires": 1814988799.690064,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "muc_ads",
+    "value": "f79199e5-1cd9-4df0-a2bc-4b93b7743b00",
+    "domain": ".t.co",
+    "path": "/",
+    "expires": 1814988799.710083,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "VLCV1OK",
+    "value": "1",
+    "domain": ".www.kariyer.net",
+    "path": "/",
+    "expires": 1814988800.020936,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "uid",
+    "value": "694621ac-e511-4de2-a61d-caa90307ab13",
+    "domain": ".criteo.com",
+    "path": "/",
+    "expires": 1814124799.107436,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_tt_enable_cookie",
+    "value": "1",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1814178989,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ttp",
+    "value": "01KT4X709Y408BKPDHZ3KBFWY2_.tt.1",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1814178989,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "captcha_v4_user",
+    "value": "ab65ce144e4c44dfbb934c647fe109a5",
+    "domain": "gcaptcha4.geetest.com",
+    "path": "/",
+    "expires": 1811964800.342073,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "MUID",
+    "value": "082DBBC69D7B6BFE0D62ACAA9C816AF4",
+    "domain": ".bing.com",
+    "path": "/",
+    "expires": 1814124802.206663,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "MR",
+    "value": "0",
+    "domain": ".c.bing.com",
+    "path": "/",
+    "expires": 1781033602.20785,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "SRM_B",
+    "value": "082DBBC69D7B6BFE0D62ACAA9C816AF4",
+    "domain": ".c.bing.com",
+    "path": "/",
+    "expires": 1814168014.074298,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "MUID",
+    "value": "082DBBC69D7B6BFE0D62ACAA9C816AF4",
+    "domain": ".clarity.ms",
+    "path": "/",
+    "expires": 1814124801.346815,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "MR",
+    "value": "0",
+    "domain": ".c.clarity.ms",
+    "path": "/",
+    "expires": 1781033601.346958,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "XANDR_PANID",
+    "value": "bGy1yiZdgDt2JAJ45YAT-bHXkBqTfniWLRzGi767I766wGCMrAQlNCN4kS34p4z8Xs6mMCo9BCndpw6ok15yRxLkZjW7FalDRihkvwiT4Ac.",
+    "domain": ".adnxs.com",
+    "path": "/",
+    "expires": 1788204801.568812,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://kariyer.net",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "uuid2",
+    "value": "7217077802909634490",
+    "domain": ".adnxs.com",
+    "path": "/",
+    "expires": 1788204801.569272,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "anj",
+    "value": "dTM7k!M4/rD>6NRF']wIg2HaPn=-J8!@wnfH1YbZRGH!W=ArAD7%GxLZpHH:YhCOGfR5O>1.4+S^[/Sn7A+O+4.KL#24!Lp2588n:'o*iX-tLN%nugO%v4VB%nm7L-CB.`",
+    "domain": ".adnxs.com",
+    "path": "/",
+    "expires": 1788204801.569192,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "udmts",
+    "value": "1780429106.0",
+    "domain": ".udmserve.net",
+    "path": "/",
+    "expires": 1811965106.169105,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "dt",
+    "value": "93AA2662-5A3D-30AD-A91D-5D0C6682E35B",
+    "domain": ".udmserve.net",
+    "path": "/",
+    "expires": 1811965106.169273,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "rtbh",
+    "value": "wkKgQGLpqLtsb122BGrY3dqsY-wdZa9ZgWvdgkvQZJ4",
+    "domain": ".udmserve.net",
+    "path": "/",
+    "expires": 1788205106.169404,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "audit_p",
+    "value": "1|TOdbDEg5LWKL9KBwg9i4zv+RkK3Zjgfyh2DqsIux1pZCcHrcA+mHMSIKu8h4BzOo61Ljv5QO7LKM1KxoLazIt3VxIOQiUHNDVr6cEODDrE74VwyI0eZlsu6MiLyKgHRECVfaeQFv8VW4BmUclLH1pXrjPWjT4P6g2ba8T6SYT4aTXNVGcDFpRg81qHLq4rKSm7QIxwcopQDc6UO785F0Pw==",
+    "domain": ".rubiconproject.com",
+    "path": "/",
+    "expires": 1811965377.919206,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://kariyer.net",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "khaos",
+    "value": "MPX1OK94-1Q-CUYG",
+    "domain": ".rubiconproject.com",
+    "path": "/",
+    "expires": 1811965377.919446,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "khaos_p",
+    "value": "MPX1OK94-1Q-CUYG",
+    "domain": ".rubiconproject.com",
+    "path": "/",
+    "expires": 1811965377.919521,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://kariyer.net",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "audit",
+    "value": "1|TOdbDEg5LWKL9KBwg9i4zv+RkK3Zjgfyh2DqsIux1pZCcHrcA+mHMSIKu8h4BzOo61Ljv5QO7LKM1KxoLazIt3VxIOQiUHNDVr6cEODDrE74VwyI0eZlsu6MiLyKgHRECVfaeQFv8VW4BmUclLH1pXrjPWjT4P6g2ba8T6SYT4aTXNVGcDFpRg81qHLq4rKSm7QIxwcopQDc6UO785F0Pw==",
+    "domain": ".rubiconproject.com",
+    "path": "/",
+    "expires": 1811965377.919609,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "receive-cookie-deprecation",
+    "value": "1",
+    "domain": ".rubiconproject.com",
+    "path": "/",
+    "expires": 1788205377.91968,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://kariyer.net",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "tt_viewer",
+    "value": "477c3b68-5adf-4264-9311-123bd7dba789",
+    "domain": ".teads.tv",
+    "path": "/",
+    "expires": 1811879123.436057,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "CMID",
+    "value": "ah80FlVbLdQAHtGlApur5AAA",
+    "domain": ".casalemedia.com",
+    "path": "/",
+    "expires": 1811965846.75336,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "CMPS",
+    "value": "3398",
+    "domain": ".casalemedia.com",
+    "path": "/",
+    "expires": 1788205846.184763,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "CMPRO",
+    "value": "3398",
+    "domain": ".casalemedia.com",
+    "path": "/",
+    "expires": 1788205846.753629,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "CLID",
+    "value": "4d32cdad9b014190b42346ca91ebf7cd.20260602.20270603",
+    "domain": "www.clarity.ms",
+    "path": "/",
+    "expires": 1812008011.050429,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "SM",
+    "value": "C",
+    "domain": ".c.clarity.ms",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_clck",
+    "value": "1fqk141%5E2%5Eg6l%5E0%5E2344",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1812008013,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "tluid",
+    "value": "984331133764757780050",
+    "domain": ".3lift.com",
+    "path": "/",
+    "expires": 1788248053.60887,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "IDE",
+    "value": "AHWqTUm1c1IHQP__QZ3Zx5jGbKKRsorMHsJHEzCoNG6MDf_HbFNviDhMIOQxcBivWmI",
+    "domain": ".doubleclick.net",
+    "path": "/",
+    "expires": 1815042985.966334,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "OfferMiner_ID",
+    "value": "AODSNVNKWQIOWFBK20260603033629",
+    "domain": ".www.kariyer.net",
+    "path": "/",
+    "expires": 1815042989.055504,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_uetsid",
+    "value": "e99126805eb911f1ac73d977940b01bf",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1780569390,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_uetvid",
+    "value": "e99272305eb911f18a8eaf50b5b448a6",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1814178990,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "pid",
+    "value": "4186281294013471776",
+    "domain": ".smartadserver.com",
+    "path": "/",
+    "expires": 1788258992.036977,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "TestIfCookieP",
+    "value": "ok",
+    "domain": ".smartadserver.com",
+    "path": "/",
+    "expires": 1814697392.037226,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "csync",
+    "value": "43:wkKgQGLpqLtsb122BGrY3dqsY-wdZa9ZgWvdgkvQZJ4",
+    "domain": ".smartadserver.com",
+    "path": "/",
+    "expires": 1783074992.037307,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "_clsk",
+    "value": "1olpytm%5E1780482993394%5E1%5E0%5Et.clarity.ms%2Fcollect",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1780569393,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ttcsid",
+    "value": "1780482989710::KrNioNkvCk2NZjz9Sh6U.3.1780482994468.0::1.-10270.0::0.0.0.0::0.0.0",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1814178994,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "ttcsid_CBH61V3C77U4K6SR0EEG",
+    "value": "1780482989700::SGqCtcXLnQJSu_QCSGSc.3.1780482994468.0",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1814178994,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "cto_bundle",
+    "value": "TdpoWF9NRnAyNkZUVXdCZ0hZTCUyQlhadVZzJTJGZ2VoR0F3Vm1SQTltNXZ4dWZ0aHB5JTJGOFolMkZqOUtJTUFMY0Z1b01ZZWZTYXZ0S0tsUmJqRW5pRlFyRGtrQ1hMVyUyRnpsV2lTS3lMZUklMkZEdXNNR29vU09tZ0tHZXRoMnBGNUxQWUxvYVNka1RONlNocFlSRXNDU1VEb3lsdmFiWG0lMkJtdyUzRCUzRA",
+    "domain": ".criteo.com",
+    "path": "/",
+    "expires": 1814178995.648351,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None",
+    "partitionKey": "https://kariyer.net",
+    "_crHasCrossSiteAncestor": true
+  },
+  {
+    "name": "cto_bundle",
+    "value": "G2_mJV9KcE9mJTJCJTJCOFR2Ymc2MHR2JTJCdUtKNGhiV3BnVDloVkRwUUM0Y3AxRVNVS3o3Tmp6aUFjY0xUciUyQmNlaXRHb3RqYlU2SHplenFWamZYaUVZMk1kNWw1QWJONUFaR0dKNTMlMkZnbHhpektWc1J2aTB5Zm1JeXpDaVclMkZobW12aXZkaTlvRFd1eWxzOEhhSHpWYnNxTGtkQ0lIc0ElM0QlM0Q",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1814646995,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "candidate_token",
+    "value": "Bearer=eyJhbGciOiJSUzI1NiIsImtpZCI6ImUyZDMyMTc4ZWExMDk1ODYyMmIyMzI0NmI2OTI3Yjk3IiwidHlwIjoiSldUIn0.eyJuYmYiOjE3ODA0OTE3NzAsImV4cCI6MTc4MDQ5NTM3MCwiaXNzIjoiaHR0cDovL3Rva2VuLmthcml5ZXIubmV0IiwiTG9naW5JZCI6IjM0ODk5ODc1IiwiQ2xpZW50VHlwZSI6IkNhbmRpZGF0ZSIsImNsaWVudF9pZCI6IktuZXRfQ2FuZGlkYXRlX0NsaWVudF9JZCIsImF1ZCI6WyJodHRwOi8vdG9rZW4ua2FyaXllci5uZXQvcmVzb3VyY2VzIiwiS25ldF9TY29wZV9BcGlfMSJdLCJzY29wZSI6WyJLbmV0X1Njb3BlX0FwaV8xIl19.Kw_ULPVyv2Oj46t6KXmWFag5NeJvQvgPEaeDBF5A62z07MWTxrKs0IigpPclOpBnNRtsZYZaYgprGHs-yxQrOTDk46kqZyME-9eYjmjxTVyikao7IZot0bzog3vr5-GeOTtWjbZHfjbaz67ObX9JjoOGC-8nWI0e6CSJe9H2GEOeWYYgLsohahX0Q_Ox5qh1ex02eICSW3ToMweDj7cNXV4wfweFf_nNraz3lsFTscX9hIaUPeSn67A4whi_e0vVjIJXf_YbOQv6zdNAIUAOOpepqlvf5p3ICie_fWMaNifisMquWMReXrvsVU72x-dM5t0WeHRsmotAHozQt4oGag",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1780580274.803863,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sbjs_udata",
+    "value": "vst%3D4%7C%7C%7Cuip%3D%28none%29%7C%7C%7Cuag%3DMozilla%2F5.0%20%28Windows%20NT%2010.0%3B%20Win64%3B%20x64%29%20AppleWebKit%2F537.36%20%28KHTML%2C%20like%20Gecko%29%20Chrome%2F124.0.0.0%20Safari%2F537.36",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1796045875,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "Knet_Cookie_2Hrs-HTTP",
+    "value": "7ce2a3d9e35f638aea46b357aa9ca7f673f078c1b20dc1642a83f3d708c418961f3ab443",
+    "domain": "docs.kariyer.net",
+    "path": "/",
+    "expires": 1780501111.030213,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "FCNEC",
+    "value": "%5B%5B%22AKsRol-q9hrF4Z7gI9YCakok5hZYYyJzaB0SMI_tCi8QmL7_JFTG1yBglnYX6-4vURG29oNQZTX97uW_Kg7CMyDEhR89v9Qkyxmq9LAGtRPmgtzdgkIp5LMHEOj5HDAXRcMhe1xUaD43rlnmbh5z_jOZ6I0wytmUkQ%3D%3D%22%5D%5D",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1812027777,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "__dn_a",
+    "value": "H4sIAAAAAAAAChXMu40DMQwFwF5eLAISf%2BKqG%2B1SBBw4cmi498NNAfPFCwu36dFII9uRpH4mRZVTdb5uHrrv2mhILNR5eFyaNI4r6a5BW4QpLI%2FZZLddaHiwgIbPf54sWkMopgqpXE7hKsQe3XvPPvNBwxtr%2FP4Acu4xDI8AAAA%3D",
+    "domain": ".www.kariyer.net",
+    "path": "/",
+    "expires": 1812027779.452662,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_ga_HC0SLFMRRM",
+    "value": "GS2.1.s1780491779$o4$g0$t1780491781$j60$l0$h0",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1815051781.257219,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "wis_u",
+    "value": "45433d8c-f6f2-8b24-8488-7e338397077e|1780414266580|5|34899875||87",
+    "domain": ".www.kariyer.net",
+    "path": "/",
+    "expires": 1815051781.297028,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__rtbh.lid",
+    "value": "%7B%22eventType%22%3A%22lid%22%2C%22id%22%3A%22hvLhCDnfmJvJdKxyZSeG%22%2C%22expiryDate%22%3A%222027-06-03T13%3A03%3A01.708Z%22%7D",
+    "domain": "www.kariyer.net",
+    "path": "/",
+    "expires": 1812027781,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "FCCDCF",
+    "value": "%5Bnull%2Cnull%2Cnull%2Cnull%2Cnull%2Cnull%2C%5B%5B32%2C%22%5B%5C%225860d21e-17b0-4cc7-bd05-096ddfa8412d%5C%22%2C%5B1780428796%2C18000000%5D%5D%22%5D%5D%5D",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1814189553,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "__gads",
+    "value": "ID=07eb2ae900091677:T=1780414274:RT=1780493553:S=ALNI_MY6itYieL4L6l62_T1MnUS_p6qicw",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1814110274,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__gpi",
+    "value": "UID=000013c15d0ccfff:T=1780414274:RT=1780493553:S=ALNI_MZioqY79_vW8jPylEDb4D2Z0a0fAw",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1814110274,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "__eoi",
+    "value": "ID=8ee8681c97499ee2:T=1780414274:RT=1780493553:S=AA-AfjYLJQ6UG6pUa3HuKWPVPbT5",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1795966274,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "None"
+  },
+  {
+    "name": "Knet_Cookie_2Hrs-HTTPX",
+    "value": "7ce2a3d9bbb3b8f00ed82ef0b30e1b94076a4ef939cdef8fada1060de5ce501397bfe428",
+    "domain": "www.kariyer.net",
+    "path": "/",
+    "expires": 1780494020.886631,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "sbjs_session",
+    "value": "pgs%3D3%7C%7C%7Ccpg%3Dhttps%3A%2F%2Fwww.kariyer.net%2Fhesabim",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1780495675,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "g_state",
+    "value": "{\"i_l\":0,\"i_ll\":1780493880952,\"i_b\":\"CF4oAXuFpBsYebit9pO5dJZ6JRaLxJJjGAPKY1T3D04\",\"i_e\":{\"enable_itp_optimization\":0},\"i_et\":1780428796537}",
+    "domain": "www.kariyer.net",
+    "path": "/",
+    "expires": 1796045880,
+    "httpOnly": false,
+    "secure": false,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "_px3",
+    "value": "3f4dfe3e7937dfb225cfc1595dccf1a183e182efeff0690c22f2ade3e394b969:ssnCgY1+8yeNzUcPOSWNUNwiKMkn2MYcEwXmAa6i3KZY3mxbflnAtOCt2qKNK4E1ZzaLiXfsvvMfJhVSU/hyQg==:1000:/Z74XBgnV2GMXYnfEGWHLf6oWxNWBO/FwO17mOtP6OT1lN28yifolq9liZ1VxENJkShaNL6mNGYQvBN7fwfyO90p5Pr/gHJi1NQabjgncoHSRUjyB5jnX2Hpcrk+JH738ln7hOef4/T6HFqcIcbrgm9aZEViIxvsWsw3MlnMs1svqUto0BIGwbZjgw9FpTl3y1HZj/wM23bxMA+gXNLGCq2qotDcEJgtUOgmjUfmFHxiJMll/k/N/bW5oyXb5VtSPdI0GZOB4tPVLuveTW/Y8afx53DMGDtjK/p/xUzRMZ4xt9jdiiSFlLKXqELLafOSdMr3zGPisXFcwGG2b9qCiOdiIXCnQsHaYQfM3hV57FW2P4nnSdXdZIMsZFMQmv3jRa5sYL7PK54EBGcNLdd3K4AOLbhVu7WU/DycdIsFaz7V0J1Wbn+eBZ4nzVmEla9thNHnxq6Jpy6K9J+D/CIZJ7V2x1WeTCBaBXncu2Z5DkY=",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": 1780494212.886602,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  },
+  {
+    "name": "pxcts",
+    "value": "J0jjQ/rl1fakVIlcn2ToBJA2ER7ZUoh/m2/qxEnqrnA=:0901Ng/JAqz0PGJOe4uzy2-HGMXjYor01AEPHM32aGh9j06h03H96cXROP0OhFoDKgv7NhYTjJlD5oKNWyXf99KOxu2CW9y-QdT8sU/kpdgMtce00kqsstQfmAvVmdd6Ds9xJMXgiP49AXryIZdewzdSwVLKyrdv3AULjIgPHioDPsz22QeXqRwwiDpTGxjU",
+    "domain": ".kariyer.net",
+    "path": "/",
+    "expires": -1,
+    "httpOnly": false,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]
